@@ -26,10 +26,13 @@ Requires the DSH Web profile (`dsh web`).
 
 ```sh
 # from npm
-dsh plugin add dsh-quick-archive
+dsh plugin --profile web add dsh-quick-archive
 
 # or straight from this repository
-dsh plugin add github:MoseeVision/dsh-quick-archive
+dsh plugin --profile web add github:MoseeVision/dsh-quick-archive
+
+# or from the prebuilt bundle asset attached to each release
+dsh plugin --profile web add https://github.com/MoseeVision/dsh-quick-archive/releases/latest/download/dsh-quick-archive.tgz
 ```
 
 You can also install it from the **插件 / Plugins** page of the Web GUI, or from the
@@ -102,10 +105,13 @@ and no storage; the Host half is an empty `apply()`.
 
 ```sh
 # 从 npm 安装
-dsh plugin add dsh-quick-archive
+dsh plugin --profile web add dsh-quick-archive
 
 # 或直接从本仓库安装
-dsh plugin add github:MoseeVision/dsh-quick-archive
+dsh plugin --profile web add github:MoseeVision/dsh-quick-archive
+
+# 或用每次 Release 附带的预构建 tarball
+dsh plugin --profile web add https://github.com/MoseeVision/dsh-quick-archive/releases/latest/download/dsh-quick-archive.tgz
 ```
 
 也可以在 Web GUI 的**插件**页面安装，条目收录后还能从 [dshmarket](https://github.com/dshmarket/dshmarket)

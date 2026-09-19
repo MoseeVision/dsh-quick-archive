@@ -13,6 +13,10 @@
 url: https://github.com/MoseeVision/dsh-quick-archive
 name: MoseeVision/dsh-quick-archive
 category: ui
+# Prebuilt bundle asset, uploaded to the latest GitHub Release under a
+# version-free name so this URL cannot rot when the next version ships.
+# Stores offer it instead of the build-from-source command.
+tarball: https://github.com/MoseeVision/dsh-quick-archive/releases/latest/download/dsh-quick-archive.tgz
 description:
   en: One-click archive button on every sidebar session row, beside the session menu.
   zh: 给侧边栏每个会话行加一个一键归档按钮，位于会话 ⋯ 菜单左侧。
