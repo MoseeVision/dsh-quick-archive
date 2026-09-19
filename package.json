@@ -1,0 +1,57 @@
+{
+  "name": "dsh-quick-archive",
+  "version": "1.0.0",
+  "description": "DSH plugin: a one-click archive button on every sidebar session row, beside the ⋯ menu / 给侧边栏每个会话行加一个一键归档按钮（在 ⋯ 旁边）",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "plugin",
+    "sidebar",
+    "session",
+    "archive",
+    "归档"
+  ],
+  "license": "MIT",
+  "author": "MoseeVision",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoseeVision/dsh-quick-archive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MoseeVision/dsh-quick-archive/issues"
+  },
+  "homepage": "https://github.com/MoseeVision/dsh-quick-archive#readme",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "scripts": {
+    "pack:check": "npm pack --dry-run"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Ready-to-paste entry for the curated plugin list / 可直接粘贴到精选列表的条目
+#
+# Submit as ONE new file in a pull request against
+#   https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+# path:  data/plugins/MoseeVision__dsh-quick-archive.yml   ← the filename is your repo's owner
+# guide: https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/contributing.md
+#
+# Before opening that PR:
+#   1. the repository must be at least 1 day old (CI checks it automatically);
+#   2. add the `dsh-plugin` topic to the repository;
+#   3. if you publish to npm, keep package.json `repository.url` pointing at this
+#      same repo — that is how the npm package and the entry get linked.
+url: https://github.com/MoseeVision/dsh-quick-archive
+name: MoseeVision/dsh-quick-archive
+category: ui
+description:
+  en: One-click archive button on every sidebar session row, beside the session menu.
+  zh: 给侧边栏每个会话行加一个一键归档按钮，位于会话 ⋯ 菜单左侧。
