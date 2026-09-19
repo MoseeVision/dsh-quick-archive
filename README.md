@@ -25,15 +25,14 @@ archiving a session takes one click instead of a menu detour.
 Requires the DSH Web profile (`dsh web`).
 
 ```sh
-# from npm
-dsh plugin --profile web add dsh-quick-archive
-
-# or straight from this repository
+# from this repository (resolved and built by the profile's package manager)
 dsh plugin --profile web add github:MoseeVision/dsh-quick-archive
 
 # or from the prebuilt bundle asset attached to each release
 dsh plugin --profile web add https://github.com/MoseeVision/dsh-quick-archive/releases/latest/download/dsh-quick-archive.tgz
 ```
+
+This plugin is **not published to npm** — install it from one of the two GitHub sources above.
 
 You can also install it from the **插件 / Plugins** page of the Web GUI, or from the
 [dshmarket](https://github.com/dshmarket/dshmarket) storefront once the entry is listed. After installing,
@@ -104,15 +103,14 @@ and no storage; the Host half is an empty `apply()`.
 需要 DSH 的 Web profile（`dsh web`）。
 
 ```sh
-# 从 npm 安装
-dsh plugin --profile web add dsh-quick-archive
-
-# 或直接从本仓库安装
+# 从本仓库安装（由 profile 的包管理器解析并构建）
 dsh plugin --profile web add github:MoseeVision/dsh-quick-archive
 
 # 或用每次 Release 附带的预构建 tarball
 dsh plugin --profile web add https://github.com/MoseeVision/dsh-quick-archive/releases/latest/download/dsh-quick-archive.tgz
 ```
+
+本插件**未发布到 npm**，安装请用上面两种 GitHub 来源之一。
 
 也可以在 Web GUI 的**插件**页面安装，条目收录后还能从 [dshmarket](https://github.com/dshmarket/dshmarket)
 市场里一键安装。装完请把页面刷新一次：新加入的 Client 模块要出现在启动模块表里，不会热插进已经打开的页面。

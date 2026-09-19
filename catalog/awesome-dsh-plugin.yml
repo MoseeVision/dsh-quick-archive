@@ -8,8 +8,10 @@
 # Before opening that PR:
 #   1. the repository must be at least 1 day old (CI checks it automatically);
 #   2. add the `dsh-plugin` topic to the repository;
-#   3. if you publish to npm, keep package.json `repository.url` pointing at this
-#      same repo — that is how the npm package and the entry get linked.
+#   3. npm publishing is deliberately skipped for this plugin — the `tarball:`
+#      field below is what stores hand users, so installs stay prebuilt. If
+#      that ever changes, keep package.json `repository.url` pointing at this
+#      same repo: that is how the npm package and the entry get linked.
 url: https://github.com/MoseeVision/dsh-quick-archive
 name: MoseeVision/dsh-quick-archive
 category: ui
